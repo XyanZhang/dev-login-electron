@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文档</title>
+
+</head>
+
+<body>
+  <div>
+    <form id="myForm" action="/api/front/ucenter/user/loginNew.php" method="post">
+      <input type="text" name="mobile" value="15600929552">
+      <input type="password" name="pwd" value="Zxy123123">
+      <input type="password" name="deviceId" value="proxy_7788">
+      <input type="text" name="appId" value="2">
+      <input type="text" name="source" value="2">
+      <button type="submit">提交</button>
+    </form>
+  </div>
+  <div>
+    <script src="https://alcdn001.huajin.com/pro/web/static/huajinjinkao/js/jquery-3.2.1.min.js"></script>
+    <script>
+      var form = document.getElementById('myForm');
+      var formData = new FormData(form);
+      console.log(formData)
+
+      function getUserInfo() {
+        
+      }
+    </script>
+  </div>
+</body>
+
+</html>
